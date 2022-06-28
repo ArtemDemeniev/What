@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrettySite</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- HEADER -->
+<div class="header"> 
+    <!-- header-wrap -->
+    <div class="header-wrap">
+    <!-- container -->
+    <div class="container">
+        <!-- header-top -->
+    <div class="header-top">
+        <!-- logo -->
+        <div class="header-logo">
+                <img src="./img/Logo.svg" alt="">
+        </div>
+        <div class="header-top-time">
+            <p>Время работы: ПН-ПТ с 8:00 до 19:00 </p>
+        </div>
+        <div class="socials">
+            <a href=""><img src="./img/socials/ant-design_instagram-filled.svg" alt=""></a>
+           <a href=""><img  src="./img/socials/ei_sc-facebook.svg" alt=""></a> 
+           <a href=""><img src="./img/socials/icon-park_telegram.svg" alt=""></a> 
+        </div>
+        <div class="telephone">
+            <a href="" type="number" class="phone-number">095 496-14-47</a>
+        </div>
+        <div class="login">
+            <button type="button" class="login-btn" id="open_popup">Войти в аккаунт</button>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<!-- popup -->
+<div class="popup">
+    <div class="popup_container">
+        <div class="popup_body">
+
+        </div>
+    </div>
+</div>
+<!-- nav-menu -->
+<section class="top-nav ">
+    <div class="container">
+        <ul class="top-nav__list">
+            <li class="top-nav__item">
+                <a href="./aboutMe.html" class="top-nav__link">Обо мне</a>
+            </li>
+            <li class="top-nav__item">
+                <a href="./methods.html" class="top-nav__link">Методика обучения</a>
+            </li>
+            <li class="top-nav__item">
+                <a href="" class="top-nav__link">Обучающие материалы</a>
+            </li>
+            <li class="top-nav__item">
+                <a href="./blog.html" class="top-nav__link">Блог</a>
+            </li>
+            <li class="top-nav__item">
+                <a href="./contacts.html" class="top-nav__link">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- main-screen-section -->
+<main class="main-screen-section ">
+    <div class="main-screen-container">
+    <div class="main-screen-bg bg-1">
+        <div class="container">
+    <div class="main-screen-text">
+        <h1>Может хватит учить английский всю жизнь?</h1>
+        <p>Освойте английский всего за 3 месяца до среднего уровна, возьмите бесплатный вводный урок чтобы узнать свой уровень</p>
+    </div>
+    <div class="btn">
+        <button class="cat">Записаться на урок</button>
+    </div>
+</div>
+</div>
+</main>
+<!-- benefits section -->
+<section class="benefits ">
+    <div class="container">
+        <div class="section-name">
+            <h2>Наши приемущества</h2>
+        </div>
+        <div class="benefit-cards">
+            <div class="benefit-card color1">
+                <div class="icon">
+                 <img src="./img/icons/Books.svg" alt="">
+                </div>
+                <div class="benefits-text">
+                    <h2>Профессиональные преподаватели</h2>
+                    <p>Наши преподаватели имеют международный сертификат уровня языка</p>
+                </div>
+            </div>
+<!-- 2 -->
+<div class="benefit-card color2">
+    <div class="icon">
+     <img src="./img/icons/Avatar.svg" alt="">
+    </div>
+    <div class="benefits-text">
+        <h2>Персональная программа</h2>
+        <p>Подстраиваемся под ваши потребности и адапритуем обучение под вас</p>
+    </div>
+</div>
+<!-- 3 -->
+<div class="benefit-card color3">
+    <div class="icon">
+     <img src="./img/icons/speak.svg" alt="">
+    </div>
+    <div class="benefits-text">
+        <h2>Разговорная практика</h2>
+        <p>Иаксимум разговорной практики, каждое занятие будет проходить на английском</p>
+    </div>
+</div>
+<!-- 4 -->
+<div class="benefit-card">
+    <div class="icon">
+     <img src="./img/icons/Boy.svg" alt="">
+    </div>
+    <div class="benefits-text">
+        <h2>Индивидуально<br> или по группам</h2>
+        <p>Вы можете выбрать индивидуальное обучение или в группе</p>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="goal">
+<div class="container">
+    <div class="section-name">
+        <h2>Какова ваша цель?</h2>
+    </div>
+                <div class="tabs">
+                    <div class="tabs-nav__list">
+                        <button type="button" data-tab="#tab-1" class="tabs-nav__item" >Общий английский</button>
+                        <button type="button" data-tab="#tab-2" class="tabs-nav__item" >Разговорный</button>
+                        <button type="button" data-tab="#tab-3" class="tabs-nav__item"  >Для детей</button>
+                        <button type="button" data-tab="#tab-4" class="tabs-nav__item"  >Грамматика</button>
+                        <button type="button" data-tab="#tab-5" class="tabs-nav__item" >Подготовка к экзамену</button>
+                        <button type="button" data-tab="#tab-6" class="tabs-nav__item" >Интервью</button>
+                        <button type="button" data-tab="#tab-7" class="tabs-nav__item" >Занятие в группах</button>
+                    </div>
+                    <div class="tabs-content ">
+ <div id="tab-1" class="tabs-card  tabs-card__background-color ">
+<div class="card-wrap ">
+   <div class="illustration">
+        <img src="./img/illustrations/Online doctor appointment.svg" alt="">
+     </div>
+    <ul class="card-text">
+        <li class="card-list">
+            <h3>Онлайн курс</h3>
+        </li>
+        <li class="card-list">
+            <h2>Общий разговорный курс</h2>
+        </li>
+        <li class="card-list">
+            <p>Уже через 3 месяца заняты ты заговоришь</p>
+        </li>
+        <li class="card-list">
+            <p>3-6 месяцев</p>
+        </li>
+        <li class="card-list">
+            <p>2-3 раза в неделю по 60 минут</p>
+        </li>
+        <li class="card-list">
+            <p>Учебники стандарта CEFR</p>
+        </li>
+        <li class="card-list">
+            <p>Занятия по Zoom</p>
+        </li>
+        <li class="card-list">
+            <h4>250 грн<h4>
+        </li>
+        <li class="card-list">
+            <h5>Время занятия 60 минут<h5>
+        </li>
+    </ul>
+</div>
+</div>
+                           
+<!-- secont -->
+<div id="tab-2" class="tabs-card  tabs-card__background-color ">
+    <div class="card-wrap ">
+       <div class="illustration">
+            <img src="./img/illustrations/2.svg" alt="">
+         </div>
+        <ul class="card-text">
+            <li class="card-list">
+                <h3>Сиди дома и занимайся</h3>
+            </li>
+            <li class="card-list">
+                <h2></h2>
+            </li>
+            <li class="card-list">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="card-list">
+                <p>3-6 месяцев</p>
+            </li>
+            <li class="card-list">
+                <p>2-3 раза в неделю по 60 минут</p>
+            </li>
+            <li class="card-list">
+                <p>Учебники стандарта CEFR</p>
+            </li>
+            <li class="card-list">
+                <p>Занятия по Zoom</p>
+            </li>
+            <li class="card-list">
+                <h4>350 грн<h4>
+            </li>
+            <li class="card-list">
+                <h5>Время занятия 60 минут<h5>
+            </li>
+        </ul>
+    </div>
+    </div>
+                    
+<!-- third -->
+<div id="tab-3" class="tabs-card  tabs-card__background-color ">
+    <div class="card-wrap ">
+       <div class="illustration">
+            <img src="./img/illustrations/3.svg" alt="">
+         </div>
+        <ul class="card-text">
+            <li class="card-list">
+                <h3>Онлайн курс</h3>
+            </li>
+            <li class="card-list">
+                <h2>Общий разговорный курс</h2>
+            </li>
+            <li class="card-list">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="card-list">
+                <p>3-6 месяцев</p>
+            </li>
+            <li class="card-list">
+                <p>2-3 раза в неделю по 60 минут</p>
+            </li>
+            <li class="card-list">
+                <p>Учебники стандарта CEFR</p>
+            </li>
+            <li class="card-list">
+                <p>Занятия по Zoom</p>
+            </li>
+            <li class="card-list">
+                <h4>250 грн<h4>
+            </li>
+            <li class="card-list">
+                <h5>Время занятия 603 минут<h5>
+            </li>
+        </ul>
+    </div>
+    </div>
+                         
+    <!-- four -->
+    <div id="tab-4" class="tabs-card  tabs-card__background-color ">
+        <div class="card-wrap ">
+           <div class="illustration">
+                <img src="./img/illustrations/4.svg" alt="">
+             </div>
+            <ul class="card-text">
+                <li class="card-list">
+                    <h3>Онлайн курс</h3>
+                </li>
+                <li class="card-list">
+                    <h2>Общий разговорный курс</h2>
+                </li>
+                <li class="card-list">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="card-list">
+                    <p>3-6 месяцев</p>
+                </li>
+                <li class="card-list">
+                    <p>2-3 раза в неделю по 60 минут</p>
+                </li>
+                <li class="card-list">
+                    <p>Учебники стандарта CEFR</p>
+                </li>
+                <li class="card-list">
+                    <p>Занятия по Zoom</p>
+                </li>
+                <li class="card-list">
+                    <h4>499 грн<h4>
+                </li>
+                <li class="card-list">
+                    <h5>Время занятия 60 минут<h5>
+                </li>
+            </ul>
+        </div>
+        </div>
+                            
+    <!-- five -->
+    <div id="tab-5" class="tabs-card  tabs-card__background-color ">
+        <div class="card-wrap ">
+           <div class="illustration">
+                <img src="./img/illustrations/5.svg" alt="">
+             </div>
+            <ul class="card-text">
+                <li class="card-list">
+                    <h3>Онлайн курс</h3>
+                </li>
+                <li class="card-list">
+                    <h2>Общий разговорный курс</h2>
+                </li>
+                <li class="card-list">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="card-list">
+                    <p>3-6 месяцев</p>
+                </li>
+                <li class="card-list">
+                    <p>2-3 раза в неделю по 60 минут</p>
+                </li>
+                <li class="card-list">
+                    <p>Учебники стандарта CEFR</p>
+                </li>
+                <li class="card-list">
+                    <p>Занятия по Zoom</p>
+                </li>
+                <li class="card-list">
+                    <h4>250 грн<h4>
+                </li>
+                <li class="card-list">
+                    <h5>Время занятия 60 минут<h5>
+                </li>
+            </ul>
+        </div>
+        </div>
+                                
+    <!-- six -->
+    <div id="tab-6" class="tabs-card  tabs-card__background-color ">
+        <div class="card-wrap ">
+           <div class="illustration">
+                <img src="./img/illustrations/6.svg" alt="">
+             </div>
+            <ul class="card-text">
+                <li class="card-list">
+                    <h3>Онлайн курс</h3>
+                </li>
+                <li class="card-list">
+                    <h2>Общий разговорный курс</h2>
+                </li>
+                <li class="card-list">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="card-list">
+                    <p>3-6 месяцев</p>
+                </li>
+                <li class="card-list">
+                    <p>2-3 раза в неделю по 60 минут</p>
+                </li>
+                <li class="card-list">
+                    <p>Учебники стандарта CEFR</p>
+                </li>
+                <li class="card-list">
+                    <p>Занятия по Zoom</p>
+                </li>
+                <li class="card-list">
+                    <h4>750 грн<h4>
+                </li>
+                <li class="card-list">
+                    <h5>Время занятия 60 минут<h5>
+                </li>
+            </ul>
+        </div>
+        </div>
+    
+    <!-- seven -->
+    <div id="tab-7" class="tabs-card  tabs-card__background-color ">
+        <div class="card-wrap ">
+           <div class="illustration">
+                <img src="./img/illustrations/7.svg" alt="">
+             </div>
+            <ul class="card-text">
+                <li class="card-list">
+                    <h3>Онлайн курс</h3>
+                </li>
+                <li class="card-list">
+                    <h2>Общий разговорный курс</h2>
+                </li>
+                <li class="card-list">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="card-list">
+                    <p>3-6 месяцев</p>
+                </li>
+                <li class="card-list">
+                    <p>2-3 раза в неделю по 60 минут</p>
+                </li>
+                <li class="card-list">
+                    <p>Учебники стандарта CEFR</p>
+                </li>
+                <li class="card-list">
+                    <p>Занятия по Zoom</p>
+                </li>
+                <li class="card-list">
+                    <h4>650 грн<h4>
+                </li>
+                <li class="card-list">
+                    <h5>Время занятия 60 минут<h5>
+                </li>
+            </ul>
+       
+     </div>               
+</div>
+</div>
+</div> 
+<div class="buttons-box">
+<a href="" class="free-lesson">Записаться</a>
+<a href="" class="more">Больше о курсе</a>
+</div>
+</div>
+</section>
+<!-- section step by step -->
+<section class="studyplan">
+<div class="container">
+    <div class="section-name">
+        <h2>Как проходит обучение?</h2>
+    </div>
+    <div class="pan-wrapper">
+<div class="plan-card">
+    <div class="number">
+        <p>1</p>
+    </div>
+    <div class="desription">
+        <h3>Подбор программы</h3>
+        <P>Подбираем индивидуальную программу специально для вас</P>
+    </div>
+</div>
+<!-- second -->
+<div class="plan-card">
+    <div class="number col1">
+        <p>2</p>
+    </div>
+    <div class="desription">
+        <h3>Составление графика</h3>
+        <P>Составляем персональное удобное для вас расписание</P>
+    </div>
+</div>
+<!-- third -->
+<div class="plan-card ">
+    <div class="number col2">
+        <p>3</p>
+    </div>
+    <div class="desription">
+        <h3>Теория и практика</h3>
+        <P>Занятия проходят онлайн в Zoom, изучаем грамматику и новые слова</P>
+    </div>
+</div>
+<!-- four -->
+<div class="plan-card">
+    <div class="number col">
+        <p>4</p>
+    </div>
+    <div class="desription">
+        <h3>Домашние задания</h3>
+        <P>После каждого занятия вы получаете домашние задания</P>
+    </div>
+</div>
+</div>
+</div>
+
+    
+</section>
+<!-- reviews -->
+<section class="reviews">
+    <div class="section-name">
+        <h2>Отзывы учеников</h2>
+    </div>
+<div class="reviews-slider">
+<div class="reviews-slider-line">
+    <!-- card -->
+<div class="rewiew-card">
+<div class="img-face">
+    <img src="./img/reviews/Group 5.png">
+</div>
+<div class="reviews-text">
+    <h2>Виктория</h2>
+    <p> Выбирала по отзывам друзей. Удобное расположение. Доброжелательный персонал. Классные преподаватели. Занятия разнообразные и интересные. Занимаюсь год.
+        И чувствую разницу в сравнении с моим уровнем «до». Начала говорить. Не сразу, с ошибками, но говорю) И прогресс есть.
+        Нравится, что отношение лояльное и доброжелательное. Учиться приятно и интересно) Спасибо!</p>
+</div>
+</div>
+<!-- second card -->
+<div class="rewiew-card">
+    <div class="img-face">
+        <img src="./img/reviews/1.png">
+    </div>
+    <div class="reviews-text">
+        <h2>Деменев Артем</h2>
+        <p> Занимаюсь уже 2 месяца. Мне нравится. Подобрали подходящее время занятий, могу совмещать работу и курсы. В группе все примерно моего возраста и уровня владения языком. Занятия превосходные - сразу чувствую результат. Занимаюсь там, и сама удивлена, что английский язык это настолько легко.</p>
+    </div>
+    </div>
+    <!-- thirs card -->
+    <div class="rewiew-card">
+        <div class="img-face">
+            <img src="./img/reviews/12.png">
+        </div>
+        <div class="reviews-text">
+            <h2>Асотская Ольга</h2>
+            <p> Очень хорошая школа, обучаюсь там уже больше чем 1,5 года с полного нуля, приятные преподаватели и администрация, всегда помогут, подрежут, подскажут. Дружеская атмосфера. Удобный офис и по расположению и по наполнению, там реально есть все, что нужно для вашего комфорта: кофе, чай, печеньки, вода, зал ожидания. Офис всегда очень чистый и приятный, вот прям приходишь и уходить не хочется. Администрация помогает подобрать группу с комфортным временем обучения. Вообщем все на высшем уровне, всем советую.</p>
+        </div>
+        </div>
+</div>
+<button type="button" class="next"><img src="./img/arrows/Arrowleft.svg" alt=""> </button>
+<button type="button" class="prev"><img src="./img/arrows/Arrowright.svg" alt=""></button>
+
+</div>
+</div>
+</section>
+<footer class="footer">
+    <div class="container">
+    <div class="wrapper">
+   
+    <div class="header-logo">
+        <img src="./img/Logo.svg" alt="">
+</div>
+<ul class="top-nav__list column">
+    <li class="top-nav__item txt">
+      <p> Основное меню</p>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="./aboutMe.html" class="top-nav__link">Обо мне</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="./methods.html" class="top-nav__link">Методика обучения</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Обучающие материалы</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="./blog.html" class="top-nav__link">Блог</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="./contacts.html" class="top-nav__link">Контакты</a>
+    </li>
+</ul> 
+<ul class="top-nav__list column">
+    <li class="top-nav__item txt">
+       <p> Доступные курсы</p>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Общий английский</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Разговорный английский</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Для детей</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Грамматика</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Подготовка к экзамену</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Интервью</a>
+    </li>
+    <li class="top-nav__item margin">
+        <a href="" class="top-nav__link">Занятие в группах</a>
+    </li>
+</ul>
+<div class="contackts">
+    <div class="socials">
+        <a href=""><img src="./img/socials/ant-design_instagram-filled.svg" alt=""></a>
+        <a href=""><img  src="./img/socials/ei_sc-facebook.svg" alt=""></a> 
+        <a href=""><img src="./img/socials/icon-park_telegram.svg" alt=""></a> 
+    </div>
+    <div class="telephone margin font-weight">
+        <a href="" type="number" class="phone-number">095 496-14-47</a>
+    </div>
+    <div class="mail margin font-weight">
+        <a href="" type="text" class="mail">myfirstmillio93@gmail.com</a>
+    </div>
+</div>
+</div>
+</div>
+<div class="copyright">
+    <p>Copyright © 2022 Artem Demeniev</p>
+</div>
+</footer>
+<script src="./js/slider.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
